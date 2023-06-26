@@ -1,0 +1,28 @@
+.statisticsWrapper {
+    width: 30vw;
+min-height: 30vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+padding: 32px;
+border-radius: 12px;
+list-style: none;
+margin: 0;
+background-color: aqua;
+border: 2px solid blanchedalmond;
+box-shadow: 10px 12px 12px 0px #cab1b14d;
+}
+
+.statisticsItem {
+    margin: 0;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+}
